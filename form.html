@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>Welcome to AB University Form </h1>
+    <form action="">
+        <label for="name">Your Name : <input id="name" type="text" placeholder="Enter Your Name"></label>
+
+        <label for="email">Your Email : <input id="email" type="text" placeholder="Enter Your Email"></label>
+
+        <fieldset>
+            <legend>Last Education Qulification</legend>
+
+            <label for="Edu">
+                <input type="radio" name="EDU" id="ssc">SSC
+            </label>
+
+            <label for="Edu">
+                <input type="radio" name="EDU" id="hsc">HSC
+            </label>
+
+            <input type="radio" name="EDU" id="bsc">BSE
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Select Your Skills</legend>
+            <label for="Computer Language">
+                <input type="checkbox" name=" Computer Language" id="C Pro"> C Programming.
+            </label>
+            <label for="Computer Language">
+                <input type="checkbox" name="Computer Language" id="java"> Java Programming
+            </label>
+            <label for="Programming Language">
+                <input type="checkbox" name="Programming Language" id="PHP"> PHP
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Special Requrement</legend>
+            <label for="text area">
+                <br>
+                <textarea name="text area" id="t fieldset" cols="100" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
